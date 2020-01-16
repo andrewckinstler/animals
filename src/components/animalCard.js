@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const AnimalCard = ({ img, name, species, description }) => {
+export const AnimalCard = ({ animal }) => {
+  const {  img, name, species, description } = animal
   return(
     <div>
       <img src={img} />

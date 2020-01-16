@@ -9,11 +9,10 @@ export const AnimalCardContainer = ({ animals }) => {
         animal={animal}
       />)
     })
-    
-
   }
+
   return (<div><h1>hi</h1>
-    {this.createCards(animals)}
+    {createCards(animals)}
   </div>)
 }
 
