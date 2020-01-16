@@ -27,7 +27,7 @@ export class App extends Component {
     const { isLoaded, error } = this.props;
     return (
       <div>
-        <AnimalCardContainer />
+        {isLoaded && <AnimalCardContainer />}
       </div>
     )
   };

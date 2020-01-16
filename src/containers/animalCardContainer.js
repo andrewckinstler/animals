@@ -3,16 +3,16 @@ import { connect } from 'react-redux';
 import { AnimalCard } from '../components/animalCard'
 
 export const AnimalCardContainer = ({ animals }) => {
-  const createCards = animals => {
+  const createCards = 
     animals.map(animal => {
       return (<AnimalCard 
         animal={animal}
       />)
     })
-  }
+  
 
   return (<div><h1>hi</h1>
-    {createCards(animals)}
+    {createCards}
   </div>)
 }
 
